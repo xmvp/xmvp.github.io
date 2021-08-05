@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/common.css" />
+    <title>班次详细</title>
+    <script src="../lib/jquery.min.js"></script>
+    <script src="../app.js"></script>
+    <script src="./index.js"></script>
+    <script src="../lib/loading.js"></script>
+</head>
+
+<body>
+    <div class="tab">
+        <ul>
+            <li tabIndex="0" class="focus">班次</li>
+            <li tabIndex="1">经停</li>
+        </ul>
+    </div>
+    <div id="info">
+        <p>
+            <label>班车：</label>
+            <label id="line"></label>
+        </p>
+        <p>
+            <label>下一班车到达时间：</label>
+            <label id="remain"></label>
+        </p>
+        <p>
+            <label>开往&nbsp;</label>
+            <label id="end"></label>
+        </p>
+        <p>
+            <label>共有&nbsp;</label>
+            <label id="count"></label>
+            <label>&nbsp;辆车</label>
+        </p>
+        <div id="container"></div>
+    </div>
+    <div id="items"></div>
+</body>
+
+<footer id="softkeys">
+    <div id="softkey-left">时间表</div>
+    <div id="softkey-center">刷新</div>
+    <div id="softkey-right">返回</div>
+</footer>
+
+</html>

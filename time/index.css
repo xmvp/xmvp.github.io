@@ -1,0 +1,21 @@
+#container {
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.item {
+  width: 100%;
+}
+
+.item label {
+  width: 50%;
+  text-align: center;
+  display: inline-table;
+}
+
+.item.select {
+  color: white;
+  background-color: #00a1d6;
+}

@@ -1,0 +1,9 @@
+p {
+  padding: 3px 6px;
+}
+
+input[type="text"] {
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}
